@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:orientation="vertical"
+    tools:context=".ActivityMain">
+
+    <ToggleButton
+        android:id="@+id/activity_main_toggleButton_adapter_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:textOn="Disable"
+        android:textOff="Enable"/>
+
+    <Button
+        android:id="@+id/activity_main_button_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Search devices"/>
+
+    <ToggleButton
+        android:id="@+id/activity_main_toggleButton_LED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:textOn="Switch LED off"
+        android:textOff="Switch LED on"/>
+
+    <Button
+        android:id="@+id/activity_main_button_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Disconnect"/>
+
+    <ListView
+        android:id="@+id/activity_main_listView_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
